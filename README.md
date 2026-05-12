@@ -33,8 +33,11 @@ Full-body AI video generation for BroyhillGOP platform.
 }
 ```
 
-## Part of BroyhillGOP Video Stack
-- E47: Voice Engine (Chatterbox)
-- E48: Lip-Sync Engine (Hallo/SadTalker)  
-- E49: GPU Orchestrator
-- **E50: Full-Body (OmniAvatar) ← THIS**
+## Where this fits in the BroyhillGOP ecosystem map
+
+Canonical numbering per `BROYHILLGOP_ECOSYSTEM_CATALOG.docx` (mirrored in `nexus-platform/reference/ecosystem-audit.md`):
+
+- **E16B — Voice Synthesis** — candidate voice samples + TTS jobs (Chatterbox lives here, repo: `runpod_chatterbox`)
+- **E45 — Video Studio** — video output + per-video performance (OmniAvatar extends this ecosystem with full-body avatar generation — **this repo**)
+
+The "Video Stack" labels used in earlier drafts (E47/E48/E49/E50) were a per-repo sketch and do NOT match the canonical 56-ecosystem catalog. E47 is AI Script Generator, E48 is Communication DNA, E49 is Interview System, E50 is unassigned. Always defer to the canonical catalog over per-repo numbering.
